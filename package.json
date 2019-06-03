@@ -1,14 +1,14 @@
 {
-  "name": "@linhun/jane-cli",
+  "name": "@xb/jane-cli",
   "version": "1.0.0-beta.15",
   "bin": {
     "jane": "./jane"
   },
   "main": "./jane",
-  "author": "fusheng",
+  "author": "xb",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lin-hun/jane"
+    "url": "https://github.com/cuiyibao/jane-cli"
   },
   "engines": {
     "node": ">=8.0.0"

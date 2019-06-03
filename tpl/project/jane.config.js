@@ -1,12 +1,18 @@
+/*
+ * @Description: 文件描述
+ * @Author: yb001
+ * @Date: 2019-06-03 11:19:14
+ * @LastEditTime: 2019-06-03 15:17:57
+ * @LastEditors: yb001
+ */
 module.exports = {
   dest:'build',
   tpl:{
     page:'' // must be directory
   },
   css: {
-    ext:'.scss',
-    compiler: require('jane-sass'),
-    // ref:https://github.com/sass/node-sass
+    ext:'.less',
+    compiler: require('jane-less'),
     config:{}
   },
   js: {

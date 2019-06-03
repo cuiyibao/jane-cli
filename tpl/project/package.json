@@ -12,7 +12,7 @@
     "babel-plugin-transform-node-env-inline": "^0.4.0",
     "babel-polyfill": "^6.26.0",
     "jane-async": "^1.0.3",
-    "jane-sass": "^1.0.0"
+    "jane-less": "^1.0.1"
   },
   "devDependencies": {
     "babel-preset-env": "^1.6.1",
