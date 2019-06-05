@@ -1,0 +1,18 @@
+{
+  "usingComponents": {
+    "van-checkbox": "../../components/vant-weapp/dist/checkbox/index",
+    "van-datetime-picker": "../../components/vant-weapp/dist/datetime-picker/index",
+    "van-field": "../../components/vant-weapp/dist/field/index",
+    "van-picker": "../../components/vant-weapp/dist/picker/index",
+    "van-radio": "../../components/vant-weapp/dist/radio/index",
+    "van-radio-group": "../../components/vant-weapp/dist/radio-group/index",
+    "van-rate": "../../components/vant-weapp/dist/rate/index",
+    "van-search": "../../components/vant-weapp/dist/search/index",
+    "van-slider": "../../components/vant-weapp/dist/slider/index",
+    "van-stepper": "../../components/vant-weapp/dist/stepper/index",
+    "van-switch": "../../components/vant-weapp/dist/switch/index",
+    "van-switch-cell": "../../components/vant-weapp/dist/switch-cell/index",
+    "van-cell-group": "../../components/vant-weapp/dist/cell-group/index",
+    "van-toast": "../../components/vant-weapp/dist/toast/index"
+  }
+}

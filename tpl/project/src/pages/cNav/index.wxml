@@ -1,0 +1,33 @@
+<view class="container">
+  <view class="y-block">
+    <view class="y-block-title">Badge 徽章</view>
+    <van-badge-group bind:change="handleBadge" custom-class="group">
+      <van-badge title="标签名称" />
+      <van-badge title="标签名称" info="8" />
+      <van-badge title="标签名称" info="99" />
+      <van-badge title="标签名称" info="99+" />
+    </van-badge-group>
+  </view>
+  <view class="y-block">
+    <view class="y-block-title">NavBar 导航栏</view>
+    <van-nav-bar title="标题" left-text="返回" right-text="按钮" left-arrow bind:click-left="onClickLeft" bind:click-right="onClickRight" />
+  </view>
+  <view class="y-block">
+    <view class="y-block-title">Tab 标签页</view>
+    <van-tabs active="{{ 1 }}" bind:change="handleTabChange">
+      <van-tab title="标签 1">内容 1</van-tab>
+      <van-tab title="标签 2">内容 2</van-tab>
+      <van-tab title="标签 3">内容 3</van-tab>
+      <van-tab title="标签 4">内容 4</van-tab>
+    </van-tabs>
+  </view>
+  <view class="y-block">
+    <view class="y-block-title">Tabbar 标签栏</view>
+    <van-tabbar fixed="{{ false }}" active="{{ 0 }}" bind:change="handleTabbarChange">
+      <van-tabbar-item icon="home-o">标签</van-tabbar-item>
+      <van-tabbar-item icon="search" dot>标签</van-tabbar-item>
+      <van-tabbar-item icon="friends-o" info="5">标签</van-tabbar-item>
+      <van-tabbar-item icon="setting-o" info="20">标签</van-tabbar-item>
+    </van-tabbar>
+  </view>
+</view>

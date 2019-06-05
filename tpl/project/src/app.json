@@ -1,6 +1,12 @@
 {
   "pages":[
-    "pages/index/index"
+    "pages/index/index",
+    "pages/cBasic/index",
+    "pages/cForm/index",
+    "pages/cFeedback/index",
+    "pages/cShow/index",
+    "pages/cNav/index",
+    "pages/cBusiness/index"
   ],
   "window":{
     "backgroundTextStyle":"light",

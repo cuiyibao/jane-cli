@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "van-button": "../../components/vant-weapp/dist/button/index",
+    "van-cell": "../../components/vant-weapp/dist/cell/index",
+    "van-cell-group": "../../components/vant-weapp/dist/cell-group/index",
+    "van-icon": "../../components/vant-weapp/dist/icon/index",
+    "van-row": "../../components/vant-weapp/dist/row/index",
+    "van-col": "../../components/vant-weapp/dist/col/index",
+    "van-popup": "../../components/vant-weapp/dist/popup/index",
+    "van-transition": "../../components/vant-weapp/dist/transition/index"
+  }
+}

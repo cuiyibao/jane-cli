@@ -1,0 +1,13 @@
+{
+  "usingComponents": {
+    "van-collapse": "../../components/vant-weapp/dist/collapse/index",
+    "van-collapse-item": "../../components/vant-weapp/dist/collapse-item/index",
+    "van-notice-bar": "../../components/vant-weapp/dist/notice-bar/index",
+    "van-panel": "../../components/vant-weapp/dist/panel/index",
+    "van-progress": "../../components/vant-weapp/dist/progress/index",
+    "van-steps": "../../components/vant-weapp/dist/steps/index",
+    "van-tag": "../../components/vant-weapp/dist/tag/index",
+    "van-tree-select": "../../components/vant-weapp/dist/tree-select/index",
+    "van-button": "../../components/vant-weapp/dist/button/index"
+  }
+}

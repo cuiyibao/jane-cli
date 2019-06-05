@@ -1,0 +1,23 @@
+<view class="container">
+  <view class="y-block">
+    <view class="y-block-title">Area 省市区选择</view>
+    <van-area area-list="{{ areaList }}" />
+  </view>
+  <view class="y-block">
+    <view class="y-block-title">Card 商品卡片</view>
+    <van-card num="2" price="2.00" desc="描述信息" title="商品标题" thumb="{{ imageURL }}" />
+  </view>
+  <view class="y-block">
+    <view class="y-block-title">SubmitBar 提交订单栏</view>
+    <van-submit-bar custom-class="submit-bar" price="{{ 3050 }}" button-text="提交订单" bind:submit="onSubmit" />
+  </view>
+  <view class="y-block">
+    <view class="y-block-title">GoodsAction 商品导航</view>
+    <van-goods-action custom-class="goods-action">
+      <van-goods-action-icon icon="chat-o" text="客服" bind:click="onClickIcon" />
+      <van-goods-action-icon icon="cart-o" text="购物车" bind:click="onClickIcon" />
+      <van-goods-action-button text="加入购物车" type="warning" bind:click="onClickButton" />
+      <van-goods-action-button text="立即购买" bind:click="onClickButton" />
+    </van-goods-action>
+  </view>
+</view>

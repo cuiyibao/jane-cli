@@ -1,0 +1,45 @@
+<view class="container">
+  <view class="y-block">
+    <view class="y-block-title">Button 按钮</view>
+    <van-button custom-class="basic-wrp" type="default">默认按钮</van-button>
+    <van-button custom-class="basic-wrp" type="primary">主要按钮</van-button>
+    <van-button custom-class="basic-wrp" type="info">信息按钮</van-button>
+    <van-button custom-class="basic-wrp" type="warning">警告按钮</van-button>
+    <van-button custom-class="basic-wrp" type="danger">危险按钮</van-button>
+  </view>
+  <view class="y-block">
+    <view class="y-block-title">Cell 单元格</view>
+    <van-cell-group>
+      <van-cell title="单元格" value="内容" />
+      <van-cell title="单元格" value="内容" label="描述信息" border="{{ false }}" />
+    </van-cell-group>
+  </view>
+  <view class="y-block">
+    <view class="y-block-title">Icon 图标</view>
+    <van-icon custom-class="basic-wrp" name="close" />
+    <van-icon custom-class="basic-wrp" name="coupon-o" />
+    <van-icon custom-class="basic-wrp" name="chat" info="9" />
+    <van-icon custom-class="basic-wrp" name="chat" info="99+" />
+  </view>
+  <view class="y-block">
+    <view class="y-block-title">Layout 布局</view>
+    <van-row>
+      <van-col custom-class="dark" span="8">span: 8</van-col>
+      <van-col custom-class="light" span="8">span: 8</van-col>
+      <van-col custom-class="dark" span="8">span: 8</van-col>
+    </van-row>
+    <van-row>
+      <van-col custom-class="dark" offset="12" span="12">offset: 12, span: 12</van-col>
+    </van-row>
+  </view>
+  <view class="y-block">
+    <view class="y-block-title">Popup 弹出层</view>
+    <van-button type="primary" bind:click="togglePopup">弹出 Popup</van-button>
+    <van-popup show="{{ show }}" bind:close="onClose">内容</van-popup>
+  </view>
+  <view class="y-block">
+    <view class="y-block-title">Transition 动画</view>
+    <van-cell title="Fade" bind:click="onClickFade" is-link />
+    <van-transition show="{{ showTrans }}" name="{{ name }}" custom-class="trans-block" />
+  </view>
+</view>

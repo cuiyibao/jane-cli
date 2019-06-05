@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "van-area": "../../components/vant-weapp/dist/area/index",
+    "van-card": "../../components/vant-weapp/dist/card/index",
+    "van-submit-bar": "../../components/vant-weapp/dist/submit-bar/index",
+    "van-goods-action": "../../components/vant-weapp/dist/goods-action/index",
+    "van-goods-action-icon": "../../components/vant-weapp/dist/goods-action-icon/index",
+    "van-goods-action-button": "../../components/vant-weapp/dist/goods-action-button/index"
+  }
+}

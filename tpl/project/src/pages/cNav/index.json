@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "van-badge": "../../components/vant-weapp/dist/badge/index",
+    "van-badge-group": "../../components/vant-weapp/dist/badge-group/index",
+    "van-nav-bar": "../../components/vant-weapp/dist/nav-bar/index",
+    "van-tab": "../../components/vant-weapp/dist/tab/index",
+    "van-tabs": "../../components/vant-weapp/dist/tabs/index",
+    "van-tabbar": "../../components/vant-weapp/dist/tabbar/index",
+    "van-tabbar-item": "../../components/vant-weapp/dist/tabbar-item/index"
+  }
+}

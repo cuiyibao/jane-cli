@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "van-cell": "../../components/vant-weapp/dist/cell/index"
+  }
+}

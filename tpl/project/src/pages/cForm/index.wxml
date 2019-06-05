@@ -1,0 +1,52 @@
+<view class="container">
+  <view class="y-block">
+    <view class="y-block-title">Checkbox 复选框</view>
+    <van-checkbox value="{{ checked }}" bind:change="onChangeCheck">复选框</van-checkbox>
+  </view>
+  <view class="y-block">
+    <view class="y-block-title">DatetimePicker 时间选择</view>
+    <van-datetime-picker type="datetime" value="{{ currentDate }}" min-date="{{ minDate }}" max-date="{{ maxDate }}" bind:input="onInput" />
+  </view>
+  <view class="y-block">
+    <view class="y-block-title">Field 输入框</view>
+    <van-cell-group>
+      <van-field value="{{ userName }}" placeholder="请输入用户名" border="{{ false }}" bind:change="handleUserChange" />
+    </van-cell-group>
+  </view>
+  <view class="y-block">
+    <view class="y-block-title">Picker 选择器</view>
+    <van-picker columns="{{ columns }}" bind:change="handlePickerChange" />
+  </view>
+  <view class="y-block">
+    <view class="y-block-title">Radio 单选框</view>
+    <van-radio-group value="{{ radio }}" bind:change="handleRadioChange">
+      <van-radio name="1">单选框 1</van-radio>
+      <van-radio name="2">单选框 2</van-radio>
+    </van-radio-group>
+  </view>
+  <view class="y-block">
+    <view class="y-block-title">Rate 评分</view>
+    <van-rate value="{{ rate }}" bind:change="handleRateChange" />
+  </view>
+  <view class="y-block">
+    <view class="y-block-title">Search 搜索</view>
+    <van-search value="{{ search }}" placeholder="请输入搜索关键词" />
+  </view>
+  <view class="y-block">
+    <view class="y-block-title">Slider 滑块</view>
+    <van-slider value="50" bind:change="handleSliderChange" />
+  </view>
+  <view class="y-block">
+    <view class="y-block-title">Stepper 步进器</view>
+    <van-stepper value="{{ 1 }}" />
+  </view>
+  <view class="y-block">
+    <view class="y-block-title">Switch 开关</view>
+    <van-switch checked="{{ switchChecked }}" bind:change="handleSwitchChange" />
+  </view>
+  <view class="y-block">
+    <view class="y-block-title">SwitchCell 开关单元格</view>
+    <van-switch-cell title="标题" checked="{{ switchCellChecked }}" bind:change="handleSwitchCellChange" />
+  </view>
+  <van-toast id="van-toast" />
+</view>

@@ -1,0 +1,43 @@
+<view class="container">
+  <view class="y-block">
+    <view class="y-block-title">Collapse 折叠面板</view>
+    <van-collapse value="{{ activeNames }}" bind:change="handleCollChange">
+      <van-collapse-item title="有赞微商城" name="1">提供多样店铺模板，快速搭建网上商城</van-collapse-item>
+      <van-collapse-item title="有赞零售" name="2">网店吸粉获客、会员分层营销、一机多种收款，告别经营低效和客户流失</van-collapse-item>
+      <van-collapse-item title="有赞美业" name="3" disabled>线上拓客，随时预约，贴心顺手的开单收银</van-collapse-item>
+    </van-collapse>
+  </view>
+  <view class="y-block">
+    <view class="y-block-title">NoticeBar 通告栏</view>
+    <van-notice-bar text="足协杯战线连续第2年上演广州德比战，上赛季半决赛上恒大以两回合5-3的总比分淘汰富力。" />
+  </view>
+  <view class="y-block">
+    <view class="y-block-title">Panel 面板</view>
+    <van-panel title="标题" desc="描述信息" status="状态" use-footer-slot>
+      <view>内容</view>
+      <view slot="footer">
+        <van-button size="small">按钮</van-button>
+        <van-button size="small" type="danger">按钮</van-button>
+      </view>
+    </van-panel>
+  </view>
+  <view class="y-block">
+    <view class="y-block-title">Progress 进度条</view>
+    <van-progress percentage="50" />
+  </view>
+  <view class="y-block">
+    <view class="y-block-title">Steps 步骤条</view>
+    <van-steps steps="{{ steps }}" active="{{ 0 }}" />
+  </view>
+  <view class="y-block">
+    <view class="y-block-title">Tag 标签</view>
+    <van-tag custom-class="basic-wrp">标签</van-tag>
+    <van-tag custom-class="basic-wrp" type="danger">标签</van-tag>
+    <van-tag custom-class="basic-wrp" type="primary">标签</van-tag>
+    <van-tag custom-class="basic-wrp" type="success">标签</van-tag>
+  </view>
+  <view class="y-block">
+    <view class="y-block-title">TreeSelect 分类选择</view>
+    <van-tree-select items="{{ items }}" main-active-index="{{ mainActiveIndex }}" active-id="{{ activeId }}" bind:click-nav="onClickNav" bind:click-item="onClickItem" />
+  </view>
+</view>
