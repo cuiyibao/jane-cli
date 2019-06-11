@@ -2,7 +2,7 @@
  * @Description: 文件描述
  * @Author: yb001
  * @Date: 2019-06-03 11:19:14
- * @LastEditTime: 2019-06-05 18:41:53
+ * @LastEditTime: 2019-06-10 15:49:50
  * @LastEditors: yb001
  -->
 ## jane
@@ -53,9 +53,7 @@ module.exports = (option)=>{
 
 ## TODO (by xb)
 
-* 按需引入方式优化
-
-* 页面按需引入，分离组件模板
+* 按需引入方式优化 （原编译方式：src文件下所有文件；改编译方式：按入口文件依赖编译）
 
 * tpl添加工具、拦截器（api管理）
 
